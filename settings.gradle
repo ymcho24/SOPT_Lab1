@@ -1,0 +1,2 @@
+rootProject.name='Lab1_Login_Relative'
+include ':app'
