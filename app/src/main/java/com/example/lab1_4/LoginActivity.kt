@@ -65,7 +65,6 @@ class LoginActivity : AppCompatActivity() {
         et_id.setText(id)
         et_pwd.setText(pass)
 
-
     }
 
 }
