@@ -16,7 +16,6 @@ class RegisterActivity : AppCompatActivity() {
 
         val btn_join = findViewById<Button>(R.id.btn_join)
         val ed1 = findViewById<EditText>(R.id.et_id1)
-        val ed2 = findViewById<EditText>(R.id.et_pwd1)
 
         btn_join.setOnClickListener{
 
