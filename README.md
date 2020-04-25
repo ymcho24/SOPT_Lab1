@@ -5,6 +5,7 @@
 가이드라인에 맞춰 연결점 연결해주고 그안에 꽉채워 작성할수있도록 match constraint 해준다
 가로를 350dp 세로를 0dp로 해주면 가로길이에 맞춰서 1:1이 적용된다
 
+
 ▶기본과제2
 
 참고 : https://blog.naver.com/rkdwnsdud555/220293816131
@@ -17,7 +18,9 @@ run/debug configurations-launch options에서 launch:를 specified activity로 �
 추가되는 액티비티에 공통적으로 <category android:name="android.intent.category.LAUNCHER" />가 있어야 한다.
 이것들은 모두 <intent-filter>의 내용으로 넣어준다. (intent-filter없으면 오류)
 
+
 ▶성장과제1
+
 
 ▶성장과제2
 
