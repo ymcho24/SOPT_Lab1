@@ -1,12 +1,14 @@
 # SOPT_Lab1
 
-▶기본과제1
+※ 과제는 해당하는 branch에 업로드 했습니다.
+
+▶ 기본과제1
 
 가이드라인에 맞춰 연결점 연결해주고 그안에 꽉채워 작성할수있도록 match constraint 해준다
 가로를 350dp 세로를 0dp로 해주면 가로길이에 맞춰서 1:1이 적용된다
 
 
-▶기본과제2
+▶ 기본과제2
 
 참고 : https://blog.naver.com/rkdwnsdud555/220293816131
 
@@ -19,10 +21,10 @@ run/debug configurations-launch options에서 launch:를 specified activity로 �
 이것들은 모두 <intent-filter>의 내용으로 넣어준다. (intent-filter없으면 오류)
 
 
-▶성장과제1
+▶ 성장과제1
 
 
-▶성장과제2
+▶ 성장과제2
 
 앱이 시작될 때 prefs에 대해 적용될 수 있도록 manifest.xml에 android:name=".App" 해준다.
 위치는 <application> 뒤 <activity> 앞 => label, icon 있는 곳에 선언해준다.
