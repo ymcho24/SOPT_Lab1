@@ -21,15 +21,6 @@ class LoginActivity : AppCompatActivity() {
             startActivityForResult(intent, 201)
         }
 
-        /*val msg = App.prefs.myEditText
-        if (msg == "") { /*RegisterActivity에서 넣어준 값이 없거나 앱 설치한 초기 상태일 경우*/
-
-        }
-        else{ /*prefs에 넣어준 값이 있으면*/
-            Toast.makeText(this, "자동 로그인", Toast.LENGTH_LONG).show()
-            val intent1 = Intent(this,MainActivity::class.java)
-            startActivity(intent1) /*MainActivity로 이동*/
-        }*/
 
         if (App.prefs.myEditText == "") { /*RegisterActivity에서 넣어준 값이 없거나 앱 설치한 초기 상태일 경우*/
 
@@ -38,6 +29,7 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "자동 로그인", Toast.LENGTH_LONG).show()
             val intent1 = Intent(this,MainActivity::class.java)
             startActivity(intent1) /*MainActivity로 이동*/
+            finish()
         }
 
 
@@ -74,6 +66,7 @@ class LoginActivity : AppCompatActivity() {
             Toast.makeText(this, "자동 로그인", Toast.LENGTH_LONG).show()
             val intent2 = Intent(this,MainActivity::class.java)
             startActivity(intent2) /*MainActivity로 이동*/
+            finish()
         }
 
     }
